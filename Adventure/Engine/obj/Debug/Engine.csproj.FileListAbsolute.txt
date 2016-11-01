@@ -1,0 +1,5 @@
+G:\GitHub\C-sharp-game\Adventure\Engine\bin\Debug\Engine.dll
+G:\GitHub\C-sharp-game\Adventure\Engine\bin\Debug\Engine.pdb
+G:\GitHub\C-sharp-game\Adventure\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+G:\GitHub\C-sharp-game\Adventure\Engine\obj\Debug\Engine.dll
+G:\GitHub\C-sharp-game\Adventure\Engine\obj\Debug\Engine.pdb
