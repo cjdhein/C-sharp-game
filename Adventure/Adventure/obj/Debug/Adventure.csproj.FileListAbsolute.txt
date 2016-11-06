@@ -9,3 +9,14 @@ G:\GitHub\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csproj.GenerateRe
 G:\GitHub\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.exe
 G:\GitHub\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.pdb
 G:\GitHub\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Adventure.resources
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Adventure.exe.config
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.exe
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.pdb
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Adventure.exe
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Adventure.pdb
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Engine.dll
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Engine.pdb
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csprojResolveAssemblyReference.cache
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Adventure.resources
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Properties.Resources.resources
+C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csproj.GenerateResource.Cache

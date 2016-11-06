@@ -14,14 +14,14 @@ namespace Engine
         public string Description { get; set; }
         public int RewardExp { get; set; }
         public int RewardGold { get; set; }
-        public List<QuestCompletionItem> QuestCompleteItems { get; set; }
+        public List<QuestCompletionItem> QuestCompletionItems { get; set; }
 
         //optional variables
         public Item RewardItem { get; set; }
 
         //constructor
         public Quest(int id, string name, string description, int rewardExp, int rewardGold,
-            Item rewardItem)
+            Item rewardItem = null)
         {
             ID = id;
             Name = name;
@@ -29,7 +29,7 @@ namespace Engine
             RewardExp = rewardExp;
             RewardGold = rewardGold;
             RewardItem = rewardItem;
-            QuestCompleteItems = new List<QuestCompletionItem>();
+            QuestCompletionItems = new List<QuestCompletionItem>();
         }
         
 

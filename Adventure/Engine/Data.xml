@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <locations>
+      <location>
+        <id>1</id>
+        <name>Home</name>
+        <description>Your home. You should really clean up the place...</description>
+      </location>
+    <location>
+        <id>2</id>
+        <name>Town Square</name>
+        <description>There's a fountain bubbling away.</description>      
+    </location>
+    <location>
+        <id>3</id>
+        <name>Alchemist Hut</name>
+        <description>There are many strange plants on shelves.</description>      
+    </location>
+    <location>
+        <id>4</id>
+        <name>Alchemist's Garden</name>
+        <description>Many a strange plant are found growing here.</description>      
+    </location>
+      <location>
+        <id>5</id>
+        <name>Farmhouse</name>
+        <description>There is a small farmhouse here, with a farmer and his dog out front.</description>      
+    </location>
+        <location>
+        <id>6</id>
+        <name>Farmer's Field</name>
+        <description>There are rows of vegetables sprouting up all around.</description>      
+    </location>
+    <location>
+        <id>7</id>
+        <name>Guard Post</name>
+        <description>There is a large, tough-looking guard here.</description>      
+    </location>
+      <location>
+        <id>8</id>
+        <name>Bridge</name>
+        <description>A stone bridge spans the river here.</description>      
+    </location>
+    <location>
+        <id>9</id>
+        <name>Spider Field</name>
+        <description>There are spider webs covering the trees in this part of the woods.</description>      
+    </location>
+  </locations>
+  <monsters>
+    <monster>
+      <name></name>
+      <id></id>
+      <maxDamage></maxDamage>
+      <rewardXP></rewardXP>
+      <rewardGold></rewardGold>
+      <maxHP></maxHP>
+    </monster>
+  </monsters>
+  <quests>
+    <quest>
+      <id></id>
+      <name></name>
+      <descrption></descrption>
+      <rewardXP></rewardXP>
+      <rewardGold></rewardGold>
+      <rewardItem></rewardItem>
+      
+    </quest>
+  </quests>
+  <Items>
+    <item>
+      <type>Base</type>
+      <id></id>
+      <name></name>
+      <namePlural></namePlural>
+    </item>
+    <item>
+      <type>Weapon</type>
+      <id></id>
+      <name></name>
+      <namePlural></namePlural>
+      <minDmg></minDmg>
+      <maxDmg></maxDmg>
+    </item>
+    <item>
+      <type>HealingPotion</type>
+      <id></id>
+      <name></name>
+      <namePlural></namePlural>
+    </item>
+  </Items>
+</root>
