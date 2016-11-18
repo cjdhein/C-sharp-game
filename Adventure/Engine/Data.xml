@@ -69,25 +69,35 @@
     </quest>
   </quests>
   <Items>
-    <item>
-      <type>Base</type>
-      <id></id>
-      <name></name>
-      <namePlural></namePlural>
-    </item>
-    <item>
-      <type>Weapon</type>
-      <id></id>
-      <name></name>
-      <namePlural></namePlural>
-      <minDmg></minDmg>
-      <maxDmg></maxDmg>
-    </item>
-    <item>
-      <type>HealingPotion</type>
-      <id></id>
-      <name></name>
-      <namePlural></namePlural>
-    </item>
+    <weapons>
+		<weapon>
+		  <id>1</id>
+		  <name>Rusty sword</name>
+		  <namePlural>Rusty swords</namePlural>
+		  <minDmg>0</minDmg>
+		  <maxDmg>5</maxDmg>		
+		</weapon>
+		<weapon>
+		  <id>6</id>
+		  <name>Club</name>
+		  <namePlural>Clubs</namePlural>
+		  <minDmg>3</minDmg>
+		  <maxDmg>10</maxDmg>		
+		</weapon>		
+    </weapons>
+    <basic_Items>
+		<basic_Item>
+		  <id></id>
+		  <name></name>
+		  <namePlural></namePlural>
+		</basic_Item>
+    </basic_Items>
+    <potions>
+		<potion>
+		  <id></id>
+		  <name></name>
+		  <namePlural></namePlural>
+		</potion>
+    </potions>
   </Items>
 </root>
