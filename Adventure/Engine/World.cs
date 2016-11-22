@@ -98,8 +98,6 @@ namespace Engine
         private static void PopulateQuests()
         {
 
-			
-			
 			/* Alchemists Garden */
             Quest clearAlchemistGarden =
                 new Quest(
@@ -127,6 +125,7 @@ namespace Engine
             Quests.Add(clearFarmersField);
         }		
 		
+        //initializes locations
         private static void PopulateLocations()
         {
 			var xmlLocations = xmlData.Descendants("Locations"); //.Root.Descendants("Locations");
@@ -139,23 +138,30 @@ namespace Engine
             Location townSquare = new Location(LOCATION_ID_TOWN_SQUARE, xmlLocations.ElementAt(LOCATION_ID_TOWN_SQUARE).Descendants("name").ToString()
                 , xmlLocations.ElementAt(LOCATION_ID_TOWN_SQUARE).Descendants("description").ToString());
 
-            Location alchemistHut = new Location(LOCATION_ID_ALCHEMIST_HUT, "Alchemist's hut", "There are many strange plants on the shelves.");
+            Location alchemistHut = new Location(LOCATION_ID_ALCHEMIST_HUT, xmlLocations.ElementAt(LOCATION_ID_ALCHEMIST_HUT).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_ALCHEMIST_HUT).Descendants("description").ToString());
             alchemistHut.QuestAvailableHere = QuestByID(QUEST_ID_CLEAR_ALCHEMIST_GARDEN);
 
-            Location alchemistsGarden = new Location(LOCATION_ID_ALCHEMISTS_GARDEN, "Alchemist's garden", "Many plants are growing here.");
+            Location alchemistsGarden = new Location(LOCATION_ID_ALCHEMISTS_GARDEN, xmlLocations.ElementAt(LOCATION_ID_ALCHEMISTS_GARDEN).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_ALCHEMISTS_GARDEN).Descendants("description").ToString());
             alchemistsGarden.MonsterHere = MonsterByID(MONSTER_ID_RAT);
 
-            Location farmhouse = new Location(LOCATION_ID_FARMHOUSE, "Farmhouse", "There is a small farmhouse, with a farmer in front.");
+            Location farmhouse = new Location(LOCATION_ID_FARMHOUSE, xmlLocations.ElementAt(LOCATION_ID_FARMHOUSE).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_FARMHOUSE).Descendants("description").ToString());
             farmhouse.QuestAvailableHere = QuestByID(QUEST_ID_CLEAR_FARMERS_FIELD);
 
-            Location farmersField = new Location(LOCATION_ID_FARM_FIELD, "Farmer's field", "You see rows of vegetables growing here.");
+            Location farmersField = new Location(LOCATION_ID_FARM_FIELD, xmlLocations.ElementAt(LOCATION_ID_FARM_FIELD).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_FARM_FIELD).Descendants("description").ToString());
             farmersField.MonsterHere = MonsterByID(MONSTER_ID_SNAKE);
 
-            Location guardPost = new Location(LOCATION_ID_GUARD_POST, "Guard post", "There is a large, tough-looking guard here.", ItemByID(ITEM_ID_ADVENTURER_PASS));
+            Location guardPost = new Location(LOCATION_ID_GUARD_POST, xmlLocations.ElementAt(LOCATION_ID_GUARD_POST).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_GUARD_POST).Descendants("description").ToString(), ItemByID(ITEM_ID_ADVENTURER_PASS));
 
-            Location bridge = new Location(LOCATION_ID_BRIDGE, "Bridge", "A stone bridge crosses a wide river.");
+            Location bridge = new Location(LOCATION_ID_BRIDGE, xmlLocations.ElementAt(LOCATION_ID_BRIDGE).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_BRIDGE).Descendants("description").ToString());
 
-            Location spiderField = new Location(LOCATION_ID_SPIDER_FIELD, "Forest", "You see spider webs covering covering the trees in this forest.");
+            Location spiderField = new Location(LOCATION_ID_SPIDER_FIELD, xmlLocations.ElementAt(LOCATION_ID_SPIDER_FIELD).Descendants("name").ToString()
+                , xmlLocations.ElementAt(LOCATION_ID_SPIDER_FIELD).Descendants("description").ToString());
             spiderField.MonsterHere = MonsterByID(MONSTER_ID_GIANT_SPIDER);
 
             // Link the locations together

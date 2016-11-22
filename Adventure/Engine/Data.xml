@@ -49,55 +49,108 @@
   </locations>
   <monsters>
     <monster>
-      <name></name>
-      <id></id>
-      <maxDamage></maxDamage>
-      <rewardXP></rewardXP>
-      <rewardGold></rewardGold>
-      <maxHP></maxHP>
+		<id>1</id>
+		<name>Rat</name>
+		<maxDamage>5</maxDamage>
+		<rewardXP>3</rewardXP>
+		<rewardGold>10</rewardGold>
+		<maxHP>3</maxHP>
     </monster>
+    <monster>
+		<id>2</id>
+		<name>Snake</name>
+		<maxDamage>5</maxDamage>
+		<rewardXP>3</rewardXP>
+		<rewardGold>10</rewardGold>
+		<maxHP>3</maxHP>
+    </monster>
+    <monster>
+		<id>3</id>
+		<name>Giant Spider</name>
+		<maxDamage>20</maxDamage>
+		<rewardXP>5</rewardXP>
+		<rewardGold>40</rewardGold>
+		<maxHP>10</maxHP>
+    </monster>	
   </monsters>
   <quests>
     <quest>
-      <id></id>
-      <name></name>
-      <descrption></descrption>
-      <rewardXP></rewardXP>
-      <rewardGold></rewardGold>
-      <rewardItem></rewardItem>
-      
+      <id>1</id>
+      <name>Clear the Alchemist's Garden</name>
+      <descrption>Kill the rats that have infested the alchemist's garden and bring back 3 rat tails as proof. In return, you will receive a healing potion and 10gp.</descrption>
+      <rewardXP>20</rewardXP>
+      <rewardGold>10</rewardGold>
+      <rewardItem>ITEM_ID_HEALING_POTION</rewardItem>   
     </quest>
+    <quest>
+      <id>2</id>
+      <name>Clear the Farmer's Field</name>
+      <descrption>Kill the snakes in the farmer's field and bring back 3 snake fangs. You will receive an Adventurer Pass and 20gp.</descrption>
+      <rewardXP>20</rewardXP>
+      <rewardGold>20</rewardGold>
+      <rewardItem>ITEM_ID_ADVENTURER_PASS</rewardItem>   
+    </quest>	
   </quests>
-  <Items>
+  <items>
     <weapons>
-	<weapon>
-	  <id>1</id>
-	  <name>Rusty sword</name>
-	  <namePlural>Rusty swords</namePlural>
-	  <minDmg>0</minDmg>
-	  <maxDmg>5</maxDmg>		
-	</weapon>
-	<weapon>
-	  <id>6</id>
-	  <name>Club</name>
-	  <namePlural>Clubs</namePlural>
-	  <minDmg>3</minDmg>
-	  <maxDmg>10</maxDmg>		
-	</weapon>		
+		<weapon>
+		  <id>1</id>
+		  <name>Rusty sword</name>
+		  <namePlural>Rusty swords</namePlural>
+		  <minDmg>0</minDmg>
+		  <maxDmg>5</maxDmg>		
+		</weapon>
+		<weapon>
+		  <id>6</id>
+		  <name>Club</name>
+		  <namePlural>Clubs</namePlural>
+		  <minDmg>3</minDmg>
+		  <maxDmg>10</maxDmg>		
+		</weapon>		
     </weapons>
     <basic_Items>
-	<basic_Item>
-	  <id></id>
-	  <name></name>
-	  <namePlural></namePlural>
-	</basic_Item>
-    </basic_Items>
-    <potions>
-	<potion>
-	  <id></id>
-	  <name></name>
-	  <namePlural></namePlural>
-	</potion>
+		<basic_Item>
+		  <id>2</id>
+		  <name>Rat tail</name>
+		  <namePlural>Rat tails</namePlural>
+		</basic_Item>
+		<basic_Item>
+		  <id>3</id>
+		  <name>Piece of fur</name>
+		  <namePlural>Pieces of fur</namePlural>
+		</basic_Item>
+		<basic_Item>
+		  <id>4</id>
+		  <name>Snake fang</name>
+		  <namePlural>Snake fangs</namePlural>
+		</basic_Item>		
+		<basic_Item>
+		  <id>5</id>
+		  <name>Snakeskin</name>
+		  <namePlural>Snakeskins</namePlural>
+		</basic_Item>		
+		<basic_Item>
+		  <id>8</id>
+		  <name>Spider fang</name>
+		  <namePlural>Spider fangs</namePlural>
+		</basic_Item>		
+		<basic_Item>
+		  <id>9</id>
+		  <name>Spider silk</name>
+		  <namePlural>Spider silk</namePlural>
+		</basic_Item>
+		<basic_Item>
+		  <id>10</id>
+		  <name>Adventurer Pass</name>
+		  <namePlural>Adventurer Passes</namePlural>
+		</basic_Item>
+	</basic_Items>	
+	<potions>
+		<potion>
+		  <id>7</id>
+		  <name>Healing Potion</name>
+		  <namePlural>Healing Potions</namePlural>
+		</potion>
     </potions>
-  </Items>
+  </items>
 </root>

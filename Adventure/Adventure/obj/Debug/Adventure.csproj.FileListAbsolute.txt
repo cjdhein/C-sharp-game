@@ -20,3 +20,10 @@ C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\A
 C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Adventure.resources
 C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Properties.Resources.resources
 C:\Users\jrprill\Desktop\cody\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csproj.GenerateResource.Cache
+G:\repos\C-sharp-game\Adventure\Adventure\bin\Debug\Adventure.exe.config
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.exe
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.pdb
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csprojResolveAssemblyReference.cache
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Adventure.resources
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.Properties.Resources.resources
+G:\repos\C-sharp-game\Adventure\Adventure\obj\Debug\Adventure.csproj.GenerateResource.Cache
